@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    
     <link rel="stylesheet" href="estilo/estilo.css">
     <title>Profolio Jian-Wang</title>
 </head>
 
 <body>
-    <header class="container-fluid">
-        <nav>
+    <header>
+        <nav class="navegacion">
             <a href="#">Inicio</a>
             <a href="#">Educacion</a>
             <a href="#">Habilidades</a>
@@ -20,32 +19,27 @@
             <a href="#">Contacto</a>
         </nav>
 
-    
-        <div class="row">
-            <div class="col">
-                <h1 class="text-center">Hola mi nombre es Jian 😊 Bienvenido a mi sitio </h1>
-            </div>
-        </div>
-            
-        
+        <div>
+            <h1 class="text-center"><span>Jian Wang</span></h1>
+            <p class="text-center">Programador Web FullStack</p>
 
+        </div>
     </header>
 
     <main class="container">
-        
-        
-            <h3>Jian Wang</h3>
-            <img src="img/Perfil.jpg" width="10%" alt="Foto de Perfil">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint nisi harum. Odio illum placeat praesentium autem excepturi, labore laboriosam, debitis fugit dolores dignissimos soluta. Quaerat soluta fuga cumque doloribus.</p>
-        
-
-            <section>
+        <div class="row">
+            <div class="col-6 text-center">
+                <img src="img/Perfil.jpg" width="30%" alt="Foto de Perfil">
+            </div>
+            <section class="col-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint nisi harum. Odio illum placeat praesentium autem excepturi, labore laboriosam, debitis fugit dolores dignissimos soluta. Quaerat soluta fuga cumque doloribus.</p>
+            
+            
                 <h2>Formacion Academico</h2>
                 <p>UADE</p>
                 <p>UTN</p>
             </section>
-        
-        
+        </div>
         <div>
             <h2>Tecnologia</h2>
             <ul>
@@ -60,6 +54,19 @@
             </ul>
         </div>
     </main>
+
+    <div>
+        <form action="#" method="GET"> 
+            <legend>Contacto</legend>
+            <label for="apellido">Apellido:</label>
+            <input type="text" placeholder="apellido">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="nombre">
+            <label for="Correo">Email:</label>
+            <input type="email" id="Correo" placeholder="correo">
+        </form>
+    </div>
+
     
 </body>
 </html>
