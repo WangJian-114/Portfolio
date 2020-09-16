@@ -1,5 +1,10 @@
+/* Globales */
 body {
     background-color: aquamarine;
+}
+
+ul {
+    list-style: none;
 }
 
 .navegacion {
@@ -16,3 +21,7 @@ body {
 .navegacion a:hover{
     color: black;
 }
+.contacto input {
+    display: block;
+}
+

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>Profolio Jian-Wang</title>
 </head>
 
@@ -14,7 +14,7 @@
         <nav class="navegacion">
             <a href="#">Inicio</a>
             <a href="#">Educacion</a>
-            <a href="#">Habilidades</a>
+            <a href="#">Tecnologia</a>
             <a href="#">Interes</a>
             <a href="#">Contacto</a>
         </nav>
@@ -55,15 +55,18 @@
         </div>
     </main>
 
-    <div>
-        <form action="#" method="GET"> 
+    <div class="container">
+        <form action="#" method="GET" class="contacto"> 
             <legend>Contacto</legend>
-            <label for="apellido">Apellido:</label>
-            <input type="text" placeholder="apellido">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre" placeholder="nombre">
-            <label for="Correo">Email:</label>
-            <input type="email" id="Correo" placeholder="correo">
+            <fieldset>
+                <label for="apellido">Apellido:</label>
+                <input type="text" placeholder="apellido">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre">
+                <label for="Correo">Email:</label>
+                <input type="email" id="Correo" placeholder="correo">
+            </fieldset>
+            <input type="submit" value="ENVIAR">
         </form>
     </div>
 
