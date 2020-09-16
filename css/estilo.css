@@ -1,6 +1,6 @@
 /* Globales */
 body {
-    background-color: aquamarine;
+    background-color: #ffffff99;
 }
 
 ul {
@@ -24,4 +24,34 @@ ul {
 .contacto input {
     display: block;
 }
+
+.imagen-fondo {
+    background-image: url(../img/bg-talleres.jpg);
+    background-position: center center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagen-fondo h1 {
+    margin-right: 30px;
+    font-size: 90px;
+}
+
+.imagen-fondo p {
+    font-size: 30px;
+}
+
+#subtitulo {
+    margin: 20px 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+}
+
 
