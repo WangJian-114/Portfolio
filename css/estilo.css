@@ -21,11 +21,16 @@ li {
     color: #979595;
     padding: 0 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
 }
 .navegacion a:hover{
     color: black;
 }
+.navegacion i {
+    color:#0081CF;
+    margin-left: 10px;
+}
+
 .contacto input {
     display: block;
 }
@@ -50,6 +55,94 @@ li {
 
 #subtitulo {
     margin: 20px 0;
+    background-color: #0081CF;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos div {
+    flex-basis: calc(33%);
+}
+
+
+.html {
+    color: cornflowerblue;
+}
+
+.css {
+    color: darkgreen;
+}
+.git {
+    color:#4B4453;
+}
+
+.javascript{
+    color:#FFC75F;
+}
+
+.python {
+    color: blue;
+}
+
+.java {
+    color: #2C73D2;
+}
+
+.sql {
+    color: #B0A8B9;
+}
+
+
+.react {
+    color: #00C9A7;
+
+}
+
+.bootstrap{
+    color: crimson;
+
+}
+
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+
+input:not([type="submit"]) {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #008CCC;
+    border-style: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.ENVIAR {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footer {
@@ -66,6 +159,23 @@ li {
     margin-right: 5px;
 
 }
- 
+.redes .fb {
+    color:#2C73D2;
+}
+
+.redes .ig {
+    color: #D65DB1;
+
+}
+
+.redes .github{
+    color: black;
+
+}
+
+.redes .linkedin{
+    color:#2C73D2;
+}
+
 
 
