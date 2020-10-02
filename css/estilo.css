@@ -2,6 +2,9 @@
 body {
     background-color: #ffffff99;
 }
+img {
+    max-width: 100%;
+}
 
 ul {
     list-style: none;
@@ -10,6 +13,18 @@ ul {
 li {
     font-size: 20px;
     font-weight: 600;
+    
+}
+
+h4 {
+    color: #fe4918;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+    opacity: 1;
+    
 }
 
 .navegacion {
@@ -18,10 +33,11 @@ li {
 }
 
 .navegacion a {
-    color: #979595;
+    color: #353535;
     padding: 0 10px;
     text-decoration: none;
     font-size: 17px;
+    font-weight: 400;
 }
 .navegacion a:hover{
     color: black;
@@ -31,6 +47,16 @@ li {
     margin-left: 10px;
 }
 
+.alinear {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alinear .redes {
+    margin-right: 30px;
+}
+
 .contacto input {
     display: block;
 }
@@ -38,7 +64,7 @@ li {
 .imagen-fondo {
     background-image: url(../img/bg-talleres.jpg);
     background-position: center center;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,6 +77,10 @@ li {
 
 .imagen-fondo p {
     font-size: 30px;
+}
+
+#tecnologia {
+    margin-bottom: 30px;
 }
 
 #subtitulo {
@@ -66,9 +96,16 @@ li {
     justify-content: space-between;
 }
 
+.iconos i:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;  
+}
+
 .iconos div {
     flex-basis: calc(33%);
 }
+
+
 
 
 .html {
@@ -113,7 +150,7 @@ legend {
     font-size: 2rem;
     color: #4f4f4f;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
 }
 
 label {
@@ -129,7 +166,16 @@ input:not([type="submit"]) {
     background-color: #e1e1e1;
     margin-bottom: 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
+}
+
+textarea {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color:#e1e1e1 ;
+    border-radius: 7px;
+    border: none;
 }
 
 .boton {
@@ -138,12 +184,17 @@ input:not([type="submit"]) {
     border-style: none;
     margin-top: 10px;
     color: white;
+    padding:10px;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 .ENVIAR {
     display: flex;
     justify-content: flex-end;
 }
+
+
 
 .footer {
     display: flex;

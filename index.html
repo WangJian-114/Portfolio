@@ -11,48 +11,57 @@
 </head>
 
 <body>
-    <header>
+    <header class="alinear">
         <nav class="navegacion">
             <i class="fas fa-laptop-code fa-2x"></i>
-            <a href="#">INICIO</a>
-            <a href="#">SOBRE DE MI</a>
-            <a href="#">EDUCACION</a>
-            <a href="#">TECNOLOGIA</a>
-            <a href="#">CONTACTO</a>
+            <a href="#Inicio">INICIO</a>
+            <a href="#sobreMi">SOBRE DE MI</a>
+            <a href="#educacion">EDUCACION</a>
+            <a href="#tecnologia">TECNOLOGIA</a>
+            <a href="#contacto">CONTACTO</a>
         </nav>
 
-        <div class="imagen-fondo">
-                <h1 class="text-center"><span>Jian Wang</span></h1>
-                <p class="text-center">Front end Developer</p>
+        <div class="redes">
+            <a href="https://www.facebook.com/wang.loading/" target="blank"><i class="fab fa-facebook fa-2x fb"></i></a>
+            <a href="https://www.instagram.com/wangloading/" target="blank"><i class="fab fa-instagram fa-2x ig"></i></a>
+            <a href="https://github.com/WangJian-114" target="blank"><i class="fab fa-github fa-2x github"></i></a>
+            <a href="https://www.linkedin.com/in/jian-wang-672aa3165/" target="blank"><i class="fab fa-linkedin-in fa-2x linkedin"></i></a>
         </div>
     </header>
 
-    <main class="container">
-        <h3 id="subtitulo" class="text-center">Sobre de Mi</h3>
+    <div class="imagen-fondo" id=Inicio>
+        <h1 class="text-center"><span>Jian Wang</span></h1>
+        <p class="text-center">Front end Developer</p>
+    </div>
+
+    <main class="container" id="sobreMi">
+        <h3 id="subtitulo" class="text-center">SOBRE DE MI</h3>
         <div class="row">
             <div class="col-6 text-center ">
                 <img src="img/Perfil.jpg" width="40%" alt="Foto de Perfil">
             </div>
             <section class="col-6">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint nisi harum. Odio illum placeat praesentium autem excepturi, labore laboriosam, debitis fugit dolores dignissimos soluta. Quaerat soluta fuga cumque doloribus.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repudiandae magnam amet, iure, temporibus voluptates blanditiis mollitia, similique et doloribus animi esse excepturi doloremque nemo laborum inventore exercitationem quasi quo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa rerum est minima aliquam, nobis corrupti. </p>
             </section>
         </div>
         <hr>
-        <div>
-            <h3 id="subtitulo" class="text-center">Formacion Academica</h3>
-            <ul>
-                <li>Escuela Tecnica Ing.Enrique Martin Hermitte</li>
-                <p>Terminado(2012-2018) Tecnico Electromecanico </p>
-                <li>UADE</li>
+        <div id=educacion>
+            <h3 id="subtitulo" class="text-center">EDUCACION</h3>
+                <h4>UADE</h4>
                 <p>En curso (tercero) Ing.en informatica</p>
                 <p>20 materias aprobadas (Programacion 1-2 , base de datos 1,ingenieria de software, programacion orientado Objeto)</p>
-                <li>UTN</li>
+
+                <h4>UTN</h4>
                 <p>En curso <br>Curso de desarrollador  Web Fullstack</p>
-            </ul>
+
+                <h4>Escuela Tecnica Ing.Enrique Martin Hermitte</h4>
+                <p>Terminado(2012-2018) Tecnico Electromecanico</p>   
         </div>
 
-        <div>
-            <h3 id="subtitulo" class="text-center">Tecnologia</h3>
+        <div id="tecnologia">
+            <h3 id="subtitulo" class="text-center">TECNOLOGIA</h3>
             <ul>
                 <div class="iconos">
                     <div class="text-center">
@@ -102,7 +111,7 @@
 
 
 
-    <div class="container">
+    <div class="container" id="contacto">
         <form action="#" class="contacto">
             <fieldset> 
                 <legend class="text-center">Contacto</legend>
@@ -112,6 +121,8 @@
                 <input type="text" name="nombre" id="nombre" placeholder="nombre">
                 <label for="Correo">Email:</label>
                 <input type="email" id="Correo" placeholder="correo">
+                <label for="comentario">Comentario:</label>
+                <textarea name="" id="comentario" cols="30" rows="10" placeholder="comentario..."></textarea>
             </fieldset>
             <div class="ENVIAR">
                 <input type="submit" value="ENVIAR" class="boton">
@@ -122,21 +133,23 @@
 
     
 
-    <footer class="container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0818816289298!2d-58.43602046681649!3d-34.57679464350683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5941e2e8763%3A0x4523735d00472294!2sParaguay%205544%2C%20C1425BTN%20CABA!5e0!3m2!1ses-419!2sar!4v1600282913125!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <hr>
-        <div class="footer">
-            <div class="Copy">
-                <p><b>Copyright © 2010-2020<b></p>
-            </div>
+    <footer>
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0818816289298!2d-58.43602046681649!3d-34.57679464350683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5941e2e8763%3A0x4523735d00472294!2sParaguay%205544%2C%20C1425BTN%20CABA!5e0!3m2!1ses-419!2sar!4v1600282913125!5m2!1ses-419!2sar" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <hr>
+            <div class="footer">
+                <div class="Copy">
+                    <p><b>Copyright © 2010-2020<b></p>
+                </div>
 
-            <div class="redes">
-                <a href="https://www.facebook.com/wang.loading/" target="blank"><i class="fab fa-facebook fa-2x fb"></i></a>
-                <a href="https://www.instagram.com/wangloading/" target="blank"><i class="fab fa-instagram fa-2x ig"></i></a>
-                <a href="https://github.com/WangJian-114" target="blank"><i class="fab fa-github fa-2x github"></i></a>
-                <a href="https://www.linkedin.com/in/jian-wang-672aa3165/" target="blank"><i class="fab fa-linkedin-in fa-2x linkedin"></i></a>
-            </div>
+                <div class="redes">
+                    <a href="https://www.facebook.com/wang.loading/" target="blank"><i class="fab fa-facebook fa-2x fb"></i></a>
+                    <a href="https://www.instagram.com/wangloading/" target="blank"><i class="fab fa-instagram fa-2x ig"></i></a>
+                    <a href="https://github.com/WangJian-114" target="blank"><i class="fab fa-github fa-2x github"></i></a>
+                    <a href="https://www.linkedin.com/in/jian-wang-672aa3165/" target="blank"><i class="fab fa-linkedin-in fa-2x linkedin"></i></a>
+                </div>
 
+            </div>
         </div>
     </footer>
     
