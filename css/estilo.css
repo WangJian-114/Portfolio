@@ -78,6 +78,59 @@ a:hover{
 }
 
 
+/* Mobile menu */
+.mobile-menu img {
+    width: 10%;
+    margin-left: 30px;
+}
+.mobile-menu {
+    background-color: #009EFA;
+
+}
+
+@media (min-width: 768px) {
+    .mobile-menu img {
+        display: none;
+    }
+    
+}
+
+/* submenu */
+.submenu a {
+    text-decoration: none; 
+    display: block;
+    color: lightcyan;
+}
+
+.submenu a:hover{
+   color: red;
+}
+
+.submenu {
+    margin-left: 30px;
+    max-height: 0;
+}
+
+.enlace {
+    overflow: hidden;
+}
+
+.enlace:target .submenu {
+    max-height: 500px;
+}
+
+
+
+
+@media (min-width: 768px ) {
+    .submenu {
+        margin-left: 30px;
+        display: none;
+    }
+}
+
+
+
 .contacto input {
     display: block;
 }
@@ -153,24 +206,7 @@ a:hover{
 
 
 
-/* Mobile menu */
-.mobile-menu img {
-    width: 10%;
-    margin-left: 50px;
-}
-.mobile-menu {
-    background-color: #009EFA;
 
-}
-
-
-
-@media (min-width: 768px) {
-    .mobile-menu img {
-        display: none;
-    }
-    
-}
 
 
 
