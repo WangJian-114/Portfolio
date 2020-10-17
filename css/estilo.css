@@ -24,9 +24,32 @@ img:hover {
     opacity: 1;
     
 }
+body {
+    background-color:#F6F8FF;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #3E91F9;
+    font-weight: 500;
+}
+
+p {
+    color:#3D4756;
+    font-weight: 600;
+}
 
 
 /* Header --------------------------------------------------------------------------------------------------------------------- */
+
+.color-header {
+    background-color: #009EFA;
+}
+
+.redes i {
+    color:white;
+    margin-left: 5px;
+}
+
 @media (min-width: 768px) {
     .alinear {
         display: flex;
@@ -62,7 +85,7 @@ img:hover {
 
 
 .navegacion a {
-    color: #353535;
+    color:white;
     padding: 0 10px;
     text-decoration: none;
     font-size: 17px;
@@ -73,7 +96,7 @@ a:hover{
     cursor: pointer
 }
 .navegacion i {
-    color:#0081CF;
+    color:white;
     margin-left: 10px;
 }
 
@@ -220,10 +243,11 @@ a:hover{
 
 #subtitulo {
     margin: 20px 0;
-    background-color: #0081CF;
+    background-color: #9EABCF;
     padding: 7px;
     border-radius: 5px;
-    color: white;
+    color: #3D4756;
+    text-transform: uppercase;
 }
 
 .iconos {
@@ -282,38 +306,61 @@ a:hover{
 }
 
 
-.footer {
-    display: flex;
-    justify-content: space-between;
+
+
+.contenido-footer {
+    margin-top: 30px;
     padding: 10px;
+}
+
+
+
+
+.redes-footer {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.contenido-footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px ) {
+    .contenido-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        
+    }
     
 }
-.Copy {
-    color:#353535;
+
+.Copy p {
+    color:white;
 }
 
-.redes a {
-    color: #979595;
-    margin-right: 5px;
-
-}
-.redes .fb {
-    color:#2C73D2;
-}
-
-.redes .ig {
-    color: #D65DB1;
+.Copy-mobile {
+    display: block;
+    transform: translateY(150px);
 
 }
 
-.redes .github{
-    color: black;
+.Copy-mobile p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0;
+    color: #353535;;
 
 }
-
-.redes .linkedin{
-    color:#2C73D2;
+@media (min-width: 768px ) {
+    .Copy-mobile p {
+        display: none;
+    }
 }
+
+
 
 
 
@@ -400,3 +447,71 @@ input[type="submit"] {
 .contenido-proyecto {
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+/** color-footer **/
+.color-footer {
+    background-color:  #009EFA;
+}
+
+
+.redes-footer i {
+    color:white;
+    margin-right: 5px;
+}
+
+
+
+/*
+.redes a {
+    color: #979595;
+    margin-right: 5px;
+
+}
+.redes .fb {
+    color:#2C73D2;
+}
+
+.redes .ig {
+    color: #D65DB1;
+
+}
+
+.redes .github{
+    color: black;
+
+}
+
+.redes .linkedin{
+    color:#2C73D2;
+}
+
+/*
+
+.redes-footer a {
+    color: #979595;
+    margin-right: 5px;
+
+}
+.redes-footer .fb {
+    color:#2C73D2;
+}
+
+.redes-footer .ig {
+    color: #D65DB1;
+
+}
+
+.redes-footer .github{
+    color: black;
+
+}
+
+.redes-footer .linkedin{
+    color:#2C73D2;
+}
+*/
