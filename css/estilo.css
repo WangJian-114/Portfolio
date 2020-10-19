@@ -95,9 +95,38 @@ a:hover{
     color:red;
     cursor: pointer
 }
+
+.mensaje a:hover {
+    display: flex;
+    text-decoration: none;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+@media (min-width: 768px ) {
+    .mensaje a:hover {
+        transform: rotate(10deg);
+        transition-duration: 1s;
+    }
+    
+}
+
+
+.mensaje span:hover {
+    color: blue;
+}
+
 .navegacion i {
     color:white;
     margin-left: 10px;
+}
+
+i:hover {
+    color:#353535;
+}
+
+.redes-footer i:hover{
+    color: #353535;
 }
 
 
@@ -250,70 +279,45 @@ a:hover{
     text-transform: uppercase;
 }
 
-.iconos {
-    display: flex;
-    justify-content: space-between;
+
+/* tecnologia */
+
+.fondo-tecnologia {
+    background-color: #009EFA;
 }
 
-.iconos i:hover{
-    transform: scale(1.1);
-    transition-duration: 1s;  
-}
-
-.iconos div {
-    flex-basis: calc(33%);
-}
-
-
-
-
-.html {
-    color: cornflowerblue;
-}
-
-.css {
-    color: darkgreen;
-}
-.git {
-    color:#4B4453;
-}
-
-.javascript{
-    color:#FFC75F;
-}
-
-.python {
-    color: blue;
-}
-
-.java {
-    color: #2C73D2;
-}
-
-.sql {
-    color: #B0A8B9;
+.iconos i {
+    color: white;
+    margin-right: 0;
+    padding: 10px;
 }
 
 
-.react {
-    color: #00C9A7;
-
+.activo i {
+    color: red!important;
 }
 
-.bootstrap{
-    color: crimson;
+div.mi-tecnologia {
+    position: relative;
+    height: 200px;
+}
 
+div.mi-tecnologia > div {
+    position: absolute;
+    background-color: lightgray;
+    padding: 20px;
+    display: none;
 }
 
 
 
+
+/** Footer **/
 
 .contenido-footer {
     margin-top: 30px;
     padding: 10px;
 }
-
-
 
 
 .redes-footer {
@@ -403,18 +407,33 @@ a:hover{
     font-weight: 700;
 }
 
+form {
+    background-color:lightskyblue;
+    margin: 15px;
+    border-radius: 10px;
+
+}
 
 
 
 form legend {
-    margin-top: 50px;
-    font-weight: 600;
-    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    color:black;
+    text-transform: uppercase;
 }
 
 @media (min-width: 768px ) {
+    form {
+        margin: 0;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
     form legend {
         margin-top: 0px;
+        font-size: 20px;
+        padding: 7px;
     }
     
 }
@@ -433,6 +452,7 @@ textarea {
 input[type="submit"] {
     margin-top: 15px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 
@@ -465,53 +485,3 @@ input[type="submit"] {
 }
 
 
-
-/*
-.redes a {
-    color: #979595;
-    margin-right: 5px;
-
-}
-.redes .fb {
-    color:#2C73D2;
-}
-
-.redes .ig {
-    color: #D65DB1;
-
-}
-
-.redes .github{
-    color: black;
-
-}
-
-.redes .linkedin{
-    color:#2C73D2;
-}
-
-/*
-
-.redes-footer a {
-    color: #979595;
-    margin-right: 5px;
-
-}
-.redes-footer .fb {
-    color:#2C73D2;
-}
-
-.redes-footer .ig {
-    color: #D65DB1;
-
-}
-
-.redes-footer .github{
-    color: black;
-
-}
-
-.redes-footer .linkedin{
-    color:#2C73D2;
-}
-*/
