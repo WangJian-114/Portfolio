@@ -299,7 +299,7 @@ i:hover {
 
 div.mi-tecnologia {
     position: relative;
-    height: 200px;
+    height: 450px;
 }
 
 div.mi-tecnologia > div {
@@ -307,6 +307,13 @@ div.mi-tecnologia > div {
     background-color: lightgray;
     padding: 20px;
     display: none;
+}
+@media (min-width: 768px ) {
+
+    div.mi-tecnologia {
+
+    height: 200px;
+}
 }
 
 
@@ -385,10 +392,24 @@ div.mi-tecnologia > div {
     margin-left: 50px;
 }
 
+.iconitos p {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
 @media (min-width: 768px ) {
     .iconitos {
         display: flex;
         margin-left: 0px;
+    }
+    .iconitos p {
+        font-size: 20px;
+    
     }
     
 }
@@ -398,14 +419,6 @@ div.mi-tecnologia > div {
     margin-right: 10px;
 }
 
-.iconitos p {
-    margin-left: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 700;
-}
 
 form {
     background-color:lightskyblue;
