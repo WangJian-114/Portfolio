@@ -485,3 +485,9 @@ input[type="submit"] {
 }
 
 
+
+
+
+.carousel-control-next-icon {
+    color: red;
+}

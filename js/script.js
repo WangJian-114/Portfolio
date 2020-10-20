@@ -15,6 +15,17 @@ $(function(){
         
 
         return false;
+
+
+        
+    }
+
+
+    $('#enviar').on('click',aviso);
+    function aviso(){
+        alert ('Gracias por contactarme!');
+        console.log("esta funcionando")
+        
     }
 
 });
