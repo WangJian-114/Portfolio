@@ -97,10 +97,8 @@ a:hover{
 }
 
 .mensaje a:hover {
-    display: flex;
+    
     text-decoration: none;
-    transform: scale(1.1);
-    transition-duration: 1s;
 }
 
 @media (min-width: 768px ) {
@@ -164,7 +162,7 @@ i:hover {
 }
 
 .enlace {
-    overflow: hidden;
+    overflow: hidden;/* ocultar el display */
 }
 
 .enlace:target .submenu {
@@ -503,4 +501,35 @@ input[type="submit"] {
 
 .carousel-control-next-icon {
     color: red;
+}
+
+
+
+/** validando formulario de contacto **/
+#errorNombre {
+    font-size: 10px;
+    text-align: center;
+    display: none;
+    color: red;
+    font-weight: 700;
+    margin: 0;
+    width: 95%;
+    margin-bottom: 5px;
+}
+#errorEmail {
+    font-size: 10px;
+    text-align: center;
+    display: none;
+    color: red;
+    font-weight: 700;
+    width: 95%;
+    margin-bottom: 5px;
+
+}
+
+.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
 }
